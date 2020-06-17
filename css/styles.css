@@ -1,0 +1,316 @@
+/* Main Colour palette
+#0E0400 -  dark navy blue
+ #16676E - mid teal 
+ light sea green
+slategray
+
+
+ */
+
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Lora', serif; */
+    font-weight:300;
+}
+body{
+    background-color: #0E0400;
+    color:white;
+}
+
+img.img-thumbnail {
+    border: none;
+    padding:0pt 5pt 5pt 5pt;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.bg-dark {
+    background-color:#0E0400!important;
+
+}
+footer {
+    background-color:#0E0400!important;
+    color:  #16676E;
+    min-height: 30px;
+    min-width:100%;
+}
+.navbar{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:300;
+    border-bottom:thin solid #16676E;
+    
+}
+.navbar h1{
+    font-size: 200%;    
+    font-family: 'Lora', serif;
+    margin-right: 100px;
+    color:#16676E!important;
+    font-variant: small-caps;
+   
+}
+
+.nav-link {
+    z-index: 200;
+}
+
+.nav-link::before {
+    background-color:#0E0400;
+    background-size: cover;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    opacity:0.5;
+}
+
+.am_content_headers, .am_content, .project_desc ,.project_title, .project_customer{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.am_content_headers{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-shadow: whitesmoke;
+    
+}
+.am_content, .project_desc {
+    padding-bottom: 12px;
+    font-weight:300;
+    margin-left:10px;
+}
+
+
+.row.am_content::before {
+    background-color:#0E0400;
+    background-size: cover;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    opacity:60%;
+    border-radius: 0.25rem;
+  }
+
+p.quals {
+    opacity: 80%;
+    margin-top: -15px;
+}
+
+h4.quals, .page_headers{
+    font-family: 'Courgette', cursive;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+.am_background {
+    background-image: url("../images/background_aurora.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact_background {
+    background-image: url("../images/call_me.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width:100%;
+    max-height:100%;
+    min-width: auto;
+    min-height:30px:
+}
+
+
+.thumbs{
+    opacity: 100%;
+    
+}
+
+.webthumbs{
+    margin-top:10px;
+}
+
+p {
+    font-family:'Montserrat', sans-serif;
+    
+} 
+
+a {
+    color: lightseagreen;
+    font-weight: 400;   
+}
+
+a .navbar{
+    font-weight: 300;
+    position: relative;   
+}
+.project_row{
+    margin-bottom: 30px;
+    padding-top: 30px;
+    position: relative;
+    max-width: 100%;
+    max-height:100%;
+}
+
+.project_row::before{
+    content: "";
+    display: block;
+    position: absolute;
+    min-width: 100%;
+    min-height:100%;
+    max-width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    background-color:  #0E0400;
+    border-radius: 0.25rem;
+}
+
+
+.project_desc {
+    margin-bottom: 10px;
+    box-shadow: black;
+    border-radius: 5px;
+    z-index: 100;
+}
+
+.project_title, .project_customer {
+    font-family:'Montserrat', sans-serif;
+    margin-left:10px;
+}
+
+
+ul.navbar-nav {
+    position: absolute;
+    right: 10px;
+    
+}
+h5.am_content{
+    color: lightseagreen;
+    text-shadow: slategray;
+    font-family: 'Courgette', cursive;
+    margin-top: 10px;
+}
+
+h4.project_title {
+    font-family: 'Lora', serif;
+    font-size: 1.75rem;
+    font-weight:500;
+    color:lightseagreen;
+    margin-top:10px;
+}
+
+h5.project_customer {
+    font-family: 'Lora', serif;
+    font-size: 1.1rem;
+    color:lightseagreen;
+    
+}
+.text-left2 {
+    text-align: left!important;
+}
+
+.fas,.fab {
+    font-size: 150%;
+    color:black;
+    margin-left: -10px;
+
+}
+
+.emailadd { 
+    color: white;
+}
+
+.copywright_det {
+    line-height: normal;
+    vertical-align: middle;
+    font-size:75%;
+}
+i.far.fa-copyright {
+    font-size:75%;
+    
+}
+
+.btn-group{
+    padding-bottom: 60px;
+}
+
+
+.contact_card{
+    background: transparent;
+    width:100%;
+}
+
+.contact_msg.form-control{
+    height: 8rem;
+
+}
+
+.contact-header {
+    background:  lightseagreen;
+}
+
+.no-border{
+    border-style: none;
+    width: 100%;
+    
+}
+.contact-form{
+    border-radius: 0.25rem;
+    width: 100%;
+    z-index: 20;
+
+}
+.contact-form::before{
+    background-color:white;
+    background-size: cover;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    opacity:10%;
+    border-radius: 0.25rem;
+}
+
+/* TODO:  Make different background picture sizes for the different screen sizes*/
+@media screen and (max-width: 680px) {
+    .am_background {
+        background-image: url("../images/background_aurora_1280x760.jpg");
+    }
+    .contact_background {
+        background-image: url("../images/call_me.jpg");
+    }
+  }
+
+@media screen and (min-width: 681px) and (max-width: 960px) {
+    .am_background {
+        background-image: url("../images/background_aurora_full.png");
+    }   
+    .contact_background {
+        background-image: url("../images/call_me_1152x768.jpg");
+    }
+}
+
+@media screen and (min-width: 961px)  {
+    .am_background {
+        background-image: url("../images/background_aurora_full.png");
+    }   
+    .contact_background {
+        background-image: url("../images/call_me_1920x1280.jpg");
+    }
+}
